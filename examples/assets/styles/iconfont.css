@@ -1,0 +1,206 @@
+@font-face {
+  font-family: "mmxlicon"; /* Project id 2740296 */
+  src: url('//at.alicdn.com/t/font_2740296_r1mdi43hmug.woff2?t=1634630720422') format('woff2'),
+       url('//at.alicdn.com/t/font_2740296_r1mdi43hmug.woff?t=1634630720422') format('woff'),
+       url('//at.alicdn.com/t/font_2740296_r1mdi43hmug.ttf?t=1634630720422') format('truetype');
+}
+
+.mmxlicon {
+  font-family: "mmxlicon" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mi-show:before {
+  content: "\e641";
+}
+
+.mi-hide:before {
+  content: "\e63e";
+}
+
+.mi-relation:before {
+  content: "\e63b";
+}
+
+.mi-unLock:before {
+  content: "\e639";
+}
+
+.mi-tips-info:before {
+  content: "\e638";
+}
+
+.mi-user-setting:before {
+  content: "\e61b";
+}
+
+.mi-refresh-s:before {
+  content: "\e653";
+}
+
+.mi-search:before {
+  content: "\e652";
+}
+
+.mi-scan:before {
+  content: "\e61a";
+}
+
+.mi-user-add:before {
+  content: "\e636";
+}
+
+.mi-mall-center:before {
+  content: "\e619";
+}
+
+.mi-check-bold:before {
+  content: "\e618";
+}
+
+.mi-date-picker:before {
+  content: "\e635";
+}
+
+.mi-export:before {
+  content: "\e634";
+}
+
+.mi-add-square:before {
+  content: "\e611";
+}
+
+.mi-plus-circle-fill:before {
+  content: "\e610";
+}
+
+.mi-arrow-down:before {
+  content: "\e60f";
+}
+
+.mi-edit:before {
+  content: "\e60e";
+}
+
+.mi-oa:before {
+  content: "\e601";
+}
+
+.mi-oa-fill:before {
+  content: "\e600";
+}
+
+.mi-close-circle-fill:before {
+  content: "\e633";
+}
+
+.mi-close:before {
+  content: "\e632";
+}
+
+.mi-oms:before {
+  content: "\e631";
+}
+
+.mi-crm:before {
+  content: "\e630";
+}
+
+.mi-setting:before {
+  content: "\e62f";
+}
+
+.mi-crm-fill:before {
+  content: "\e62c";
+}
+
+.mi-setting-fill:before {
+  content: "\e62b";
+}
+
+.mi-erp-fill:before {
+  content: "\e62a";
+}
+
+.mi-oms-fill:before {
+  content: "\e629";
+}
+
+.mi-erp:before {
+  content: "\e625";
+}
+
+.mi-user-center:before {
+  content: "\e617";
+}
+
+.mi-data-center:before {
+  content: "\e616";
+}
+
+.mi-refresh-circle:before {
+  content: "\e613";
+}
+
+.mi-setting-front:before {
+  content: "\e615";
+}
+
+.mi-menu:before {
+  content: "\e614";
+}
+
+.mi-right:before {
+  content: "\e612";
+}
+
+.mi-instrument-plus:before {
+  content: "\e60d";
+}
+
+.mi-marketing:before {
+  content: "\e60c";
+}
+
+.mi-spider:before {
+  content: "\e60b";
+}
+
+.mi-instrument:before {
+  content: "\e60a";
+}
+
+.mi-data-tool:before {
+  content: "\e609";
+}
+
+.mi-strategy:before {
+  content: "\e608";
+}
+
+.mi-brand:before {
+  content: "\e607";
+}
+
+.mi-activity:before {
+  content: "\e606";
+}
+
+.mi-distribution:before {
+  content: "\e605";
+}
+
+.mi-programme:before {
+  content: "\e603";
+}
+
+.mi-market:before {
+  content: "\e602";
+}
+
+.mi-content:before {
+  content: "\e604";
+}

@@ -1,0 +1,16 @@
+node_modules/
+# build/
+# examples/
+# packages/
+# package.json
+# package-lock.json
+# README.en.md
+# README.md
+# LICENSE
+# tsconfig.json
+# .DS_Store
+# .editorconfig
+# .gitignore
+# .prettierrc.js
+
+

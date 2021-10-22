@@ -1,0 +1,26 @@
+#官网 http://editorconfig.org
+
+#EditorConfig file 表示是最顶层的配置文件
+root = true
+
+[*]
+#字符集utf-8
+charset = utf-8
+
+#是否在文件的最后插入一个空行
+insert_final_newline = true
+
+#缩进风格：空格
+indent_style = tab
+
+#缩进大小2
+indent_size = 2
+
+#换行符lf
+end_of_line = lf
+
+#是否删除行尾的空格
+trim_trailing_whitespace = true
+
+[*.md]
+trim_trailing_whitespace = false

@@ -1,0 +1,29 @@
+{
+	"compilerOptions": {
+		"declaration": true, //Generates corresponding d.ts files.
+		"declarationDir": "./lib/types",
+		"forceConsistentCasingInFileNames": true, /* Disallow inconsistently-cased references to the same file. */
+		"target": "esnext", /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', 'ES2018', 'ES2019', 'ES2020', or 'ESNEXT'. */
+		"module": "esnext", /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', 'es2020', or 'ESNext'. */
+		"jsx": "preserve", /* Specify JSX code generation: 'preserve', 'react-native', 'react', 'react-jsx' or 'react-jsxdev'. */
+		"strict": true, /* Enable all strict type-checking options. */
+		"noEmit": false,
+		"moduleResolution": "node", /* Specify module resolution strategy: 'node' (Node.js) or 'classic' (TypeScript pre-1.6). */
+		"baseUrl": "./", /* Base directory to resolve non-absolute module names. */
+		"paths": {
+			"@/*": [
+				"examples/*"
+			],
+			"#/*": [
+				"examples/assets/*"
+			]
+		}, /* A series of entries which re-map imports to lookup locations relative to the 'baseUrl'. */
+		"skipLibCheck": true, /* Skip type checking of declaration files. */
+		"types": [
+			"node"
+		],
+	},
+	"exclude": [
+		"node_modules"
+	]
+}
