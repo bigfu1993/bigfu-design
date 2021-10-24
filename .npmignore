@@ -8,6 +8,7 @@ public/
 # 忽略指定文件
 vue.config.js
 babel.config.js
+tsconfig.json
 *.map
 
 # 本地文件

@@ -20,5 +20,5 @@ const install = function (Vue:any, opts = {}) {
 
 export default {
 	install,
-	...components,
+	// ...components,
 }

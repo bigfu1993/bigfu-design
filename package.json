@@ -1,12 +1,13 @@
 {
 	"name": "bigfu-design",
-	"version": "1.0.3",
+	"version": "1.0.4",
+	"private": false,
 	"description": "this is a ui library for vue",
 	"main": "index.js",
 	"scripts": {
 		"dev": "cross-env BUILD_ENV=dev RUN_TYPE=runtime webpack serve --config ./build/webpack.example.config.js",
-		"build:lib": "cross-env BUILD_ENV=prod RUN_TYPE=build webpack --config ./build/webpack.library.config.js",
-		"build": "npm run build:single&npm run build:module",
+		"build": "cross-env BUILD_ENV=prod RUN_TYPE=build webpack --config ./build/webpack.single-lib.config.js",
+		"build:both": "npm run build:single&npm run build:module",
 		"build:single": "cross-env BUILD_ENV=prod RUN_TYPE=build webpack --config ./build/webpack.single-lib.config.js",
 		"build:module": "cross-env BUILD_ENV=prod RUN_TYPE=build webpack --config ./build/webpack.module-lib.config.js"
 	},
